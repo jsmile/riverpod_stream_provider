@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:riverpod_stream_provider/src/pages/timer/timer_page.dart';
 
 import 'pages/ticker/ticker_page.dart';
 import 'widgets/cutom_button.dart';
@@ -34,6 +35,10 @@ class MyHomePage extends StatelessWidget {
             CustomButton(
               title: 'Ticker',
               child: TickerPage(),
+            ),
+            CustomButton(
+              title: 'Stream Timer',
+              child: TimerPage(),
             ),
           ],
         ),
